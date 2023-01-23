@@ -1,0 +1,218 @@
+*{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+/* header banner */
+.header{
+    width:100%;
+    height: 900px;
+    background-image: url('../images/banner/banner1.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.banner{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 230px ;
+    padding-left: 880px;
+    padding-top:300px ;
+    
+}
+.main-header{
+    font-size: 65px;
+    font-weight: 800;
+    text-align: right;
+    padding-bottom: 25px;
+    color: #151414;
+    
+}
+.paragraph{
+    text-align: right;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 30px;
+    height: 78px;
+    left: 876px;
+    top: 468px;
+    color: #444343;
+    padding-bottom: 50px;
+}
+.button{
+    padding: 20px 30px;
+    background-color: #F15B22;
+    color: white;
+    border: none;
+    font-size: 20px;
+    float: right;
+}
+/* about section */
+.about{
+    display: flex;
+    align-items: center;
+    margin: 200px 100px;
+}
+.about-image{
+    padding-left: 200px;
+    padding-right: 90px;
+}
+.text-information{
+    padding-right: 300px;
+}
+.about-header{
+    font-size: 40px;
+    line-height: 47px;
+    font-weight: 700;
+    line-height: 47px;
+    padding-right: 150px;
+    padding-bottom: 30px;
+    color: #151414;
+}
+.about-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding-right: 120px;
+    padding-bottom: 20px;
+}
+.check-items{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 10px;
+}
+.check-items-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 5px;
+    color: #444343;
+}
+/* my plan */
+.plan-header{
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 60px;
+}
+.list-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.listing{
+    display: flex;
+    padding-bottom: 130px;
+    justify-content: space-around;
+    list-style-type: none;
+
+}
+.list-header{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    margin: 20px 0px;
+    color: #151414;
+
+}
+.list-text{
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #737272;
+}
+/* image section */
+.image-section{
+    margin: 30px 230px 130px 230px;
+    height: 300px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url( ../images/watch.png);
+    border-radius: 8px;
+    background-size: cover;
+    color: white;
+    padding: 20px;
+    padding: 60px 900px 0px 60px;
+}
+.image-header{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+.image-button{
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    padding: 24px 36px;
+    margin-top: 24px;
+
+}
+/* footer section */
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #151414;
+    padding: 50px;
+}
+.first-footer{
+    padding-right: 500px;
+    padding-left: 230px;
+
+ 
+}
+.second-footer{
+    padding-right: 230px;
+
+}
+.footer-header{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    padding-bottom: 16px;
+    color: #F8F8F8;
+}
+.footer-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+.footer-list{
+    display: flex;
+    list-style-type: none;
+    justify-items: center;
+    padding-top: 25px;
+}
+.footer-phone{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    padding-top: 16px;
+}
+.footer-email{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    padding-top: 16px;
+}
+.input-iteam{
+    padding: 20px 30px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    background-color: #151414;
+    border: 1px solid;
+    border-color: #F8F8F8;
+    border-radius: 5px;
+}
+.footer-button{
+    margin: 20px 0;
+    padding: 20px 30px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #F15B22;
+}
